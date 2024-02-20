@@ -1,0 +1,109 @@
+body {
+    background-color: #0a094a;
+
+    margin: 60px; /* Set margin for the whole body */
+
+}
+
+
+p {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 200px;
+}
+li {
+    color: black;
+    font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+    color: #F6ECA9;
+    font-family: 'Silkscreen-b';
+    font-weight: 700;}
+
+
+h2 {
+    color: #F6ECA9;
+    font-family: 'Silkscreen';
+    font-weight: 700;
+
+}
+
+
+h3 {
+    color: black;
+    font-family: "Roboto Mono", monospace;
+
+}
+
+a {
+    font-family: "Roboto Mono", monospace; /* Change the font family */
+    padding: 10px; /* Change the padding */
+    color: hotpink; /* Change the link color */
+
+  }
+
+  .bordered-image {
+    border: 15px dotted green; /* 2px thick solid border with black color */
+  }
+
+
+.pixelify-sans {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal; /* or specify the desired weight */
+    font-style: normal;
+}
+
+.roboto-mono {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.padded-text {
+    padding: 0px; /* Add padding around the text */
+    text-align: left; /* Center the text horizontally */
+    margin: 100; /* Remove default margin */
+}
+
+/* CSS for styling the icons */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    position: fixed;
+    bottom: 10px; /* Adjust the distance from the bottom */
+    }
+
+    .social-icons li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+
+    .social-icons li:last-child {
+    margin-right: 0;
+    }
+
+    .social-icons li a {
+    color: #F6ECA9; /* Adjust color as needed */
+    text-decoration: none;
+    font-size: 30px;
+    }
+
+
+
+    @font-face {
+        font-family: 'Silkscreen';
+        src: url('Silkscreen/slkscre.ttf') format('truetype');
+        /* Replace 'path/to/your/font/' with the actual path to your font file */
+    }
+
+    @font-face {
+        font-family: 'Silkscreen-b';
+        src: url('Silkscreen/slkscrb.ttf') format('truetype');
+        /* Replace 'path/to/your/font/' with the actual path to your font file */
+    }
